@@ -570,7 +570,7 @@ a.header-info__value:hover {
 }
 
 .services-drop__link:hover,
-.services-drop__item--has-sub:hover > .services-drop__link {
+.services-drop__item--has-sub:hover>.services-drop__link {
   background-color: #EEF8EE;
   color: #007844;
 }
@@ -2284,7 +2284,7 @@ a.mobile-nav__contact-val {
   background: rgba(255, 255, 255, 0.2);
 }
 
-.help__agreement:hover .help__checkbox:not(:checked) + .help__checkmark::after {
+.help__agreement:hover .help__checkbox:not(:checked)+.help__checkmark::after {
   content: '';
   display: block;
   width: 10px;
@@ -2841,7 +2841,7 @@ a.footer__contact-value:hover {
   background: rgba(255, 255, 255, 0.2);
 }
 
-.modal__agreement:hover .modal__checkbox:not(:checked) + .modal__checkmark::after {
+.modal__agreement:hover .modal__checkbox:not(:checked)+.modal__checkmark::after {
   content: '';
   display: block;
   width: 10px;
@@ -2988,7 +2988,7 @@ a.footer__contact-value:hover {
     font-size: 15px;
   }
 
-  .header-top_wrapper{
+  .header-top_wrapper {
     align-items: center;
   }
 
@@ -3119,8 +3119,8 @@ a.footer__contact-value:hover {
    MEDIA — max-width: 1224px
    ============================================= */
 
-@media (max-width: 1224px){
-    .hero__image {
+@media (max-width: 1224px) {
+  .hero__image {
     width: 400px;
     left: 10px;
   }
@@ -3374,7 +3374,7 @@ a.footer__contact-value:hover {
     padding-bottom: 30px;
   }
 
-  .hero_cta{
+  .hero_cta {
     margin: 0 auto;
   }
 
@@ -3490,7 +3490,7 @@ a.footer__contact-value:hover {
     gap: 4px;
   }
 
-  .help__right{
+  .help__right {
     display: none;
   }
 }
@@ -3505,7 +3505,10 @@ a.footer__contact-value:hover {
     font-size: 14px;
   }
 
-  h1, h2, h3, h4 {
+  h1,
+  h2,
+  h3,
+  h4 {
     font-size: 26px;
   }
 
@@ -3551,7 +3554,7 @@ a.footer__contact-value:hover {
 
   .header-nav__right {
     margin-left: 0;
-    gap: 34px;
+    gap: 14px;
   }
 
   .header-nav__signup {
@@ -3821,7 +3824,7 @@ a.footer__contact-value:hover {
     object-fit: contain;
   }
 
-  .hero_left{
+  .hero_left {
     padding-bottom: 0;
   }
 
@@ -3988,6 +3991,7 @@ a.footer__contact-value:hover {
   .hero_title {
     font-size: 28px;
   }
+
   .text-block__highlight {
     flex-direction: column;
     padding: 20px;
